@@ -1,5 +1,5 @@
 import { Head, Link, usePage } from '@inertiajs/react';
-import { dashboard, login, map, register } from '@/routes';
+import { login, map, register } from '@/routes';
 
 export default function Welcome() {
     const { auth } = usePage().props;
@@ -21,10 +21,10 @@ export default function Welcome() {
                         <nav className="flex w-full items-center justify-center gap-4">
                             {auth.user ? (
                                 <Link
-                                    href={dashboard()}
+                                    href={map()}
                                     className="w-full rounded-md bg-[#722f37] px-6 py-2.5 text-center text-sm font-medium text-white transition hover:bg-[#5d252d] focus-visible:ring-2 focus-visible:ring-[#722f37] focus-visible:ring-offset-2 focus-visible:outline-none"
                                 >
-                                    Dashboard
+                                    Mapa
                                 </Link>
                             ) : (
                                 <>
