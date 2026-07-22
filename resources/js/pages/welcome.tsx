@@ -24,7 +24,7 @@ export default function Welcome() {
                                     href={map()}
                                     className="w-full rounded-md bg-[#722f37] px-6 py-2.5 text-center text-sm font-medium text-white transition hover:bg-[#5d252d] focus-visible:ring-2 focus-visible:ring-[#722f37] focus-visible:ring-offset-2 focus-visible:outline-none"
                                 >
-                                    Mapa
+                                    Empecemos
                                 </Link>
                             ) : (
                                 <>
@@ -44,12 +44,6 @@ export default function Welcome() {
                                 </>
                             )}
                         </nav>
-                        <Link
-                            href={map()}
-                            className="w-full rounded-md bg-[#722f37] px-6 py-3 text-center text-sm font-semibold text-white shadow-[0_4px_24px_rgba(44,36,32,0.14)] transition hover:bg-[#5d252d] focus-visible:ring-2 focus-visible:ring-[#722f37] focus-visible:ring-offset-2 focus-visible:outline-none"
-                        >
-                            Empecemos
-                        </Link>
                     </div>
                 </main>
             </div>
