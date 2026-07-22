@@ -9,6 +9,10 @@ Cafecitos is a Laravel application for keeping a personal coffee journal and exp
 - Tailwind CSS 4
 - SQLite
 
+## Map
+
+The public `/map` page initializes Leaflet in `resources/js/pages/mapa.tsx`. That file contains the map container, initial Montevideo view, tile layer, and React cleanup.
+
 ## Setup
 
 ```bash
@@ -30,4 +34,3 @@ npm run types:check
 npm run lint:check
 npm run build
 ```
-
